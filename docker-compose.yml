@@ -1,0 +1,17 @@
+version: '3.3'
+services:
+    flask-app:
+        container_name: flask-app
+        build: .
+        
+        ports:
+            - "5000:5000"
+        
+        volumes:
+            - .:/code
+        
+        environment:
+            FLASK_ENV: development
+            SLACK_TOKEN: tuToken
+            SECRET_KEY: sNK8ViVYopA8Vf2Zyr6rSgotBf3LBICOcSAzE4NWAAP1ztRl6nAIcg
+

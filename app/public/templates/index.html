@@ -1,0 +1,35 @@
+  {% extends "template.html" %}    
+    {% block content %}
+    <style type="text/css">
+    	.marcadores{
+    		margin-bottom: 5%;
+    	}
+
+    </style>
+	<div class="marcadores">
+        <button type="button" class="btn btn-success">
+		  <em class="fas fa-envelope-open-text fa-2x"></em> <span class="badge badge-light">0</span>
+		  <span class="sr-only">send messages</span>
+		</button>
+
+        <button type="button" class="btn btn-success">
+		  <em class="fab fa-slack fa-2x"></em> <span class="badge badge-light">0</span>
+		  <span class="sr-only">send messages</span>
+		</button>
+
+		<button type="button" class="btn btn-secondary">
+		  <em class="fab fa-telegram-plane fa-2x"></em><span class="badge badge-light">0</span>
+		  <span class="sr-only">send messages</span>
+		</button>
+
+		<button type="button" class="btn btn-secondary">
+		  <em class="fab fa-whatsapp fa-2x"></em> <span class="badge badge-light">0</span>
+		  <span class="sr-only">send messages</span>
+		</button>
+	</div>
+
+
+		
+
+
+    {% endblock %}
