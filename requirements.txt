@@ -20,3 +20,4 @@ wheel
 Flask-Caching
 Flask-Mail==0.9.1
 pytest
+pylint==2.4.4
